@@ -4,7 +4,12 @@
   "description": "iNotebook - Notes available on the go!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "watch": "nodemon index.js"
+  },
+  "engines": {
+    "node": "14.x"
   },
   "author": "Piyush Vyas",
   "license": "ISC",
